@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/DMC_Nora/Desktop/QA projects/Winter2022TAF">
+        <classes>
+            <class name="Annotations.SampleTest">
+                <methods>
+                    <include name="demoTest1"/>
+                    <include name="demoTest2"/>
+                    <include name="testEnabled"/>
+                    <include name="dependDemo"/>
+                </methods>
+            </class>
+            <class name="TestNGDem.TestNGDemo">
+                <methods>
+                    <include name="createNewUserTest"/>
+                    <include name="loginTest"/>
+                    <include name="testLoginFun"/>
+                </methods>
+            </class>
+            <class name="eShopTest.Function1">
+                <methods>
+                    <include name="test11"/>
+                </methods>
+            </class>
+            <class name="eShopTest.Function2">
+                <methods>
+                    <include name="test12"/>
+                    <include name="test22"/>
+                </methods>
+            </class>
+            <class name="eShopTest.Function3">
+                <methods>
+                    <include name="test13"/>
+                </methods>
+            </class>
+
+            <class name="TestNGDem.TestNGDemo"></class>
+        </classes>
+    </test>
+</suite>
